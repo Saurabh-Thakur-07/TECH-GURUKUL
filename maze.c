@@ -27,7 +27,7 @@ void posRight(int arr[3][3], int position[2])
     {
         if (position[0] < 0 || position[0] > 2)
             printf("%d %d", position[0], position[1]);
-        return 0;
+            return 0;
         position[0]++;
     }
     return;
@@ -40,7 +40,7 @@ void posDown(int arr[3][3], int position[2])
     {
         if (position[1] < 0 || position[1] > 2)
             printf("%d %d", position[0], position[1]);
-        return 0;
+            return 0;
         position[1]++;
     }
     return;
@@ -53,7 +53,7 @@ void posLeft(int arr[3][3], int position[2])
     {
         if (position[0] < 0 || position[0] > 2)
             printf("%d %d", position[0], position[1]);
-        return 0;
+            return 0;
         position[0]--;
     }
     return;
@@ -65,7 +65,7 @@ void posUp(int arr[3][3], int position[2])
     {
         if (position[1] < 0 || position[1] > 2)
             printf("%d %d", position[0], position[1]);
-        return 0;
+            return 0;
         position[1]--;
     }
     return;
